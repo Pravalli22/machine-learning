@@ -1,0 +1,13 @@
+echo "# machine-learning" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Pravalli22/machine-learning.git
+git push -u origin main
+
+import numpy as np 
+import pandas as pd 
+import seaborn as sns 
+import matplotlib.pyplot as plt
+
